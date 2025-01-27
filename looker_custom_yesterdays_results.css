@@ -97,14 +97,18 @@ Light grey: f2f7fc
 }
 
 .total {
-  display: none;
+  text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */
 }
 
 .total:after {
+  content: "SUBTOTAL" !important;
+  text-indent: 0;
+  display: block;
+  line-height: initial;
   border-top: 2px solid #a6a6a6 !important;
   border-bottom: 1px solid #FFFFFF !important;
   font-weight: bold !important;
-  content: "SUBTOTAL" !important;
 }
 
 .total.transposed {
