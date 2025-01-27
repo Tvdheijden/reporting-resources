@@ -97,6 +97,10 @@ Light grey: f2f7fc
 }
 
 .total {
+  display: none;
+}
+
+.total:after {
   border-top: 2px solid #a6a6a6 !important;
   border-bottom: 1px solid #FFFFFF !important;
   font-weight: bold !important;
