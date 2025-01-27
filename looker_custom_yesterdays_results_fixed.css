@@ -45,20 +45,11 @@ Light grey: f2f7fc
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
   border-spacing: 3px;
-/*   width: 100%; /* Make the table take up the full width of its container */ */
-  table-layout: fixed; /* Ensures columns respect defined widths */
 }
 
 /* Set a fixed width for the first column */
-.reportTable td:first-child,
 .reportTable th:first-child {
   width: 300px; /* Set your desired fixed width for the first column */
-}
-
-/* Allow remaining columns to take up the rest of the space evenly */
-.reportTable td:not(:first-child),
-.reportTable th:not(:first-child) {
-  width: auto; /* Remaining columns will share the remaining space evenly */
 }
 
 /* headers */
