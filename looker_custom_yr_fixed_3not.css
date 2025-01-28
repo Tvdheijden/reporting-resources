@@ -127,5 +127,5 @@ Light grey: f2f7fc
 /* Allow other columns to scale proportionally */
 .reportTable td, 
 .reportTable th {
-    width: auto;
+    width: 25%;
 }
