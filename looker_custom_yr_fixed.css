@@ -120,14 +120,8 @@ Light grey: f2f7fc
 
 }
 
-/* Set the first column to take 25% of the total width */
-.reportTable td:first-child, 
-.reportTable th:first-child {
-    width: 20%;
-}
-
 /* Allow other columns to scale proportionally */
 .reportTable td, 
 .reportTable th {
-    width: auto;
+    width: 25%;
 }
