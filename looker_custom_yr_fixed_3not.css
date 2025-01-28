@@ -121,8 +121,8 @@ Light grey: f2f7fc
 }
 
 /* Hide the first three rows of the table */
-.reportTable tr:nth-child(1),
-.reportTable tr:nth-child(2),
-.reportTable tr:nth-child(3) {
+.reportTable tr:nth-child(3),
+.reportTable tr:nth-child(4),
+.reportTable tr:nth-child(5) {
     display: none;
 }
