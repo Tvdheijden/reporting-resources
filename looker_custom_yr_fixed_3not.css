@@ -57,7 +57,6 @@ Light grey: f2f7fc
   /* height: 25px; */
   padding: 5px;
   background: #FFFFFF;
-  width: 25%;
 }
 
 /* table body */
@@ -68,7 +67,6 @@ Light grey: f2f7fc
   /*background: #FFFFFF; --> overwrites odd/even alternating background colors*/
   border: none;
   border-collapse: collapse;
-  width: 25%;
 }
 
 /* White column divider. Starts after the first column and repeats every 3 columns */
@@ -125,4 +123,16 @@ Light grey: f2f7fc
 .reportTable tr:nth-child(2),
 .reportTable tr:nth-child(3) {
     display: none;
+}
+
+/* Set the first column to take 25% of the total width */
+.reportTable td:first-child, 
+.reportTable th:first-child {
+    width: 25%;
+}
+
+/* Allow other columns to scale proportionally */
+.reportTable td, 
+.reportTable th {
+    width: 25%;
 }
