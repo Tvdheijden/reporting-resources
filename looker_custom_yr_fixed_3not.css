@@ -124,5 +124,5 @@ Light grey: f2f7fc
 .reportTable tr:nth-child(1),
 .reportTable tr:nth-child(2),
 .reportTable tr:nth-child(3) {
-    display: hidden;
+    display: none;
 }
