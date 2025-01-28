@@ -124,8 +124,5 @@ Light grey: f2f7fc
 .reportTable tr:nth-child(1),
 .reportTable tr:nth-child(2),
 .reportTable tr:nth-child(3) {
-    visibility: hidden;
-    h    max-height: 0; /* Collapse the height */
-    overflow: hidden; /* Prevents content from spilling out */
-    display: block; /* Required to enforce the height collapsing in some cases */
+    display: hidden;
 }
