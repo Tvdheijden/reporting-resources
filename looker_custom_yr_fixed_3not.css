@@ -45,7 +45,8 @@ Light grey: f2f7fc
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
   border-spacing: 3px;
-  width: auto;
+  width: 100%;
+  table-layout: fixed;
 }
 
 /* headers */
