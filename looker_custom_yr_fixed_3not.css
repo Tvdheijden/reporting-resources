@@ -46,6 +46,7 @@ Light grey: f2f7fc
   border-collapse: collapse;
   border-spacing: 3px;
   width: 100%;
+  table-layout: fixed;
 }
 
 /* headers */
@@ -123,10 +124,4 @@ Light grey: f2f7fc
 .reportTable tr:nth-child(2),
 .reportTable tr:nth-child(3) {
     display: none;
-}
-
-/* Allow other columns to scale proportionally */
-.reportTable td, 
-.reportTable th {
-    width: 25%;
 }
