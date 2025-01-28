@@ -125,3 +125,9 @@ Light grey: f2f7fc
 .reportTable tr:nth-child(3) {
     display: none;
 }
+
+/* Set the first column to take 25% of the total width */
+.reportTable td:first-child, 
+.reportTable th:first-child {
+    width: 25%;
+}
