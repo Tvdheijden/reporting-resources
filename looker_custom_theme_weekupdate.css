@@ -6,9 +6,13 @@ Light blue: CCE9F9
 Light grey: f2f7fc
 */
 
-.reportTable th {
-	/* display: none !important; */
+/* .reportTable th {
+	display: none !important;
 	visibility: colapse !important;
+} */
+
+th.headerCell {
+  display: none !important;
 }
 
 .reportTable td {
