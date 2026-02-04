@@ -11,6 +11,8 @@ Light grey: f2f7fc
 }
 
 .reportTable td {
+	font-family: Open Sans;
+  	font-size: 12px;
 	color: #F2F7FC !important;
 	background-color: #0090e3 !important;
 }
